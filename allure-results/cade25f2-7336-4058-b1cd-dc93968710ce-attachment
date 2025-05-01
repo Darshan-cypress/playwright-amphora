@@ -1,0 +1,243 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Press Releases@sanity
+- Location: C:\20333151\playwrightdemo\tests\resources.spec.js:16:5
+
+# Error details
+
+```
+TimeoutError: page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://amphora.net/", waiting until "load"
+
+    at C:\20333151\playwrightdemo\tests\resources.spec.js:6:15
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Amphora":
+    - img "Amphora"
+  - navigation:
+    - list:
+      - listitem: Products
+      - listitem:
+        - link "Markets"
+      - listitem:
+        - link "Technology"
+      - listitem:
+        - link "About us"
+      - listitem: Resources
+    - link "en_US":
+      - img "en_US"
+    - link "Get in touch"
+- main:
+  - heading "Amphora commodities trading platform – adaptable and proven." [level=1]
+  - paragraph: Minimise risk, maximise profit and strategize for the future with Amphora CTRM solutions.
+  - link "Get in touch"
+  - link "Watch our video"
+  - img "Homepage"
+  - heading "Products" [level=2]
+  - list:
+    - listitem:
+      - link "Symphony CTRM Amphora’s CTRM solution for crude oil, refined products, biofuels, coal, ore and LNG. Learn more":
+        - heading "Symphony CTRM" [level=3]
+        - paragraph
+        - paragraph: Amphora’s CTRM solution for crude oil, refined products, biofuels, coal, ore and LNG.
+        - paragraph
+        - text: Learn more
+    - listitem:
+      - link "Alchemy CTRM A CTRM designed specifically for metals and concentrates, built to capture all the nuances of a contract with a few mouse clicks. Learn more":
+        - heading "Alchemy CTRM" [level=3]
+        - paragraph
+        - paragraph: A CTRM designed specifically for metals and concentrates, built to capture all the nuances of a contract with a few mouse clicks.
+        - paragraph
+        - text: Learn more
+    - listitem:
+      - link "Trade confirmations manager Trade confirmations manager Create trade documents documents in just a few steps and see a full list of documents waiting to be processed. Learn more":
+        - heading "Trade confirmations manager" [level=3]
+        - img "Trade confirmations manager"
+        - paragraph
+        - paragraph: Create trade documents documents in just a few steps and see a full list of documents waiting to be processed.
+        - paragraph
+        - text: Learn more
+    - listitem:
+      - link "Freight manager Freight manager Most technologically advanced freight trading software on the market today. Learn more":
+        - heading "Freight manager" [level=3]
+        - img "Freight manager"
+        - paragraph
+        - paragraph: Most technologically advanced freight trading software on the market today.
+        - paragraph
+        - text: Learn more
+    - listitem:
+      - link "Claims manager Claims manager Full integration with symphony and based on the Microsoft workflow engine. Learn more":
+        - heading "Claims manager" [level=3]
+        - img "Claims manager"
+        - paragraph
+        - paragraph: Full integration with symphony and based on the Microsoft workflow engine.
+        - paragraph
+        - text: Learn more
+    - listitem:
+      - link "Symphony Credit The first real-time credit exposure calculation tool for the commodities industry brings high performance reporting and exposure monitoring. Learn more":
+        - heading "Symphony Credit" [level=3]
+        - paragraph
+        - paragraph: The first real-time credit exposure calculation tool for the commodities industry brings high performance reporting and exposure monitoring.
+        - paragraph
+        - text: Learn more
+  - heading "Why choose Amphora?" [level=2]
+  - list:
+    - listitem:
+      - heading "Unparalleled support" [level=3]
+      - paragraph: Everything we do is focused on creating an outstanding experience, leveraging decades of industry experience to provide unparalleled service for customers and partners.
+      - paragraph: With Development and Service centres in the UK, USA, India, Switzerland & Singapore, you can tap into local knowledge across the globe.
+    - listitem:
+      - heading "Future-focus" [level=3]
+      - paragraph: In an ever-evolving trading landscape, it’s not enough to follow trends or sit on laurels. At Amphora, we question assumptions, push boundaries and challenge the status quo everyday.
+      - paragraph: By anticipating shifts in technology and customer demands, we’re in great shape to adapt and face tomorrow with confidence and excitement.
+    - listitem:
+      - heading "Investment in people" [level=3]
+      - paragraph: The challenges of commodity trading aren’t solved by data and systems alone. We know our people are pivotal to every aspect of current and future success.
+      - paragraph: Our designers, developers and analysts are the best in the business. It’s their insight that allows us to deliver the innovative, effective solutions that support your own business growth.
+  - heading "Latest news and thoughts" [level=2]
+  - link "CTRM Fears":
+    - heading "CTRM Fears" [level=3]
+  - link "CTRM Marketing Techniques":
+    - heading "CTRM Marketing Techniques" [level=3]
+  - link "CTRM Integrations":
+    - heading "CTRM Integrations" [level=3]
+  - heading "Sign up to our newsletter" [level=2]
+  - paragraph: Join the growing number of companies harnessing Amphora software solutions to work smarter, faster and collaborate with confidence.
+  - link "Sign up now"
+- contentinfo:
+  - link "Amphora":
+    - img "Amphora"
+  - paragraph: Real time commodity trading and risk management software
+  - list:
+    - listitem:
+      - link:
+        - img
+    - listitem:
+      - link:
+        - img
+  - link "CDPMember":
+    - img "CDPMember"
+  - navigation:
+    - list:
+      - listitem:
+        - link "Products"
+        - list:
+          - listitem:
+            - link "Symphony CTRM"
+          - listitem:
+            - link "Alchemy"
+          - listitem:
+            - link "VaR Module"
+          - listitem:
+            - link "Trade confirmations manager"
+          - listitem:
+            - link "Freight manager"
+          - listitem:
+            - link "Claims manager"
+          - listitem:
+            - link "Symphony Credit"
+      - listitem:
+        - link "Markets"
+        - list:
+          - listitem:
+            - link "Oil & Products"
+          - listitem:
+            - link "Petrochemical"
+          - listitem:
+            - link "LNG and NGL’s"
+          - listitem:
+            - link "Freight"
+          - listitem:
+            - link "Coal & Ore"
+          - listitem:
+            - link "Metals & Concentrates"
+      - listitem:
+        - link "About us"
+        - list:
+          - listitem:
+            - link "Management"
+          - listitem:
+            - link "Events"
+          - listitem:
+            - link "Partners"
+          - listitem:
+            - link "Careers"
+      - listitem:
+        - link "Technology"
+      - listitem:
+        - link "Contact"
+      - listitem:
+        - text: Resources
+        - list:
+          - listitem:
+            - link "News articles"
+          - listitem:
+            - link "Press Releases"
+          - listitem:
+            - link "Newsletter sign-up"
+  - paragraph: © Copyright 2025. Content from this website may not be copied or otherwise reproduced without express written permission.
+  - list:
+    - listitem:
+      - link "Privacy Notice |"
+    - listitem:
+      - link "Cookie Policy |"
+    - listitem:
+      - link "Trust Centre"
+```
+
+# Test source
+
+```ts
+   1 | import {test, expect }  from '@playwright/test' ;
+   2 |
+   3 |
+   4 | test.beforeEach(async({page})=>{
+   5 |     
+>  6 |    await page.goto("https://amphora.net")    
+     |               ^ TimeoutError: page.goto: Timeout 15000ms exceeded.
+   7 |   
+   8 | })
+   9 |
+  10 | test.afterEach(async({page})=>{
+  11 |   
+  12 |    await expect(page).toHaveURL("https://amphora.net/")
+  13 |
+  14 | })
+  15 |
+  16 | test('Press Releases@sanity', async ({page}) => {
+  17 |
+  18 |     await page.hover('body > header:nth-child(4) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)');
+  19 |     await page.locator("li[id='menu-item-204'] a").click();
+  20 |     await page.goBack();
+  21 |     
+  22 |  })
+  23 |
+  24 |  test('News articles@smoke', async ({page}) => {
+  25 |
+  26 |     await page.hover('body > header:nth-child(4) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)');
+  27 |     await page.locator("li[id='menu-item-468'] a").click();
+  28 |     await page.goBack();
+  29 |
+  30 |  })
+  31 |
+  32 |  test('Newsletter sign-up@regression@smoke', async ({page}) => {
+  33 |
+  34 |     await page.hover('body > header:nth-child(4) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)');
+  35 |     await page.locator("li[id='menu-item-511'] a").click();
+  36 |     await page.goBack();
+  37 |
+  38 |  })
+  39 |
+  40 |
+```
